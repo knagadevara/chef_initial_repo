@@ -1,4 +1,7 @@
-
 package 'vim' do
-    action :install
+action :install
+end
+
+package 'git' do
+action :install
 end
