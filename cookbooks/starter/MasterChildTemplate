@@ -1,0 +1,8 @@
+Chef will be deploying the Zabbix agent.
+Master template is link between child and host.
+VDC2 and VD3 are public DC.
+Zabbix ----> Proxy Server ------------> Host
+Auto-registration rule will apply the JMX interface.
+1. Move the host to decommision group and disable the triggers.
+2. 
+3. Delete the Host in Zabbix.
